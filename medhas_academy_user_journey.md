@@ -4,9 +4,11 @@
 
 This document defines the complete end-to-end learner experience within Medhas Academy.
 
-Unlike traditional course platforms that focus primarily on content consumption, Medhas Academy is designed as an engineering training platform where employees progress through practical learning, hands-on implementation, real-world projects, mock deployments, assessments, and mentorship to become production-ready Forward Deployed Engineers (FDEs).
+Unlike traditional course platforms that focus primarily on content consumption, Medhas Academy is designed as an engineering training platform where employees progress through structured learning, research, hands-on implementation, real-world projects, mock deployments, assessments, and mentorship to become production-ready Forward Deployed Engineers (FDEs).
 
 The objective is not merely course completion, but skill transformation.
+
+The ultimate goal of the program is to prepare engineers to confidently work with real clients, understand business problems, design AI solutions, and successfully deploy production-ready systems.
 
 ---
 
@@ -18,20 +20,20 @@ Access is restricted to approved company members.
 
 ### User Actions
 
-- Open Medhas Academy
-- Sign up using company email
-- Verify email
-- Complete profile setup
+* Open Medhas Academy
+* Sign up using company email
+* Verify email
+* Complete profile setup
 
 ### Profile Information
 
-- Name
-- Department
-- Current Role
-- Technical Experience
-- Skills
-- GitHub Profile
-- LinkedIn Profile (Optional)
+* Name
+* Department
+* Current Role
+* Technical Experience
+* Skills
+* GitHub Profile
+* LinkedIn Profile (Optional)
 
 ### Platform Goal
 
@@ -47,27 +49,27 @@ This helps determine their current level.
 
 ### Assessment Areas
 
-- Programming Fundamentals
-- JavaScript / Python
-- APIs
-- Databases
-- Cloud Concepts
-- AI Knowledge
-- Problem Solving
+* Programming Fundamentals
+* JavaScript / Python
+* APIs
+* Databases
+* Cloud Concepts
+* AI Knowledge
+* Problem Solving
 
 ### User Actions
 
-- Complete assessment
-- Submit answers
-- Receive skill report
+* Complete assessment
+* Submit answers
+* Receive skill report
 
 ### Platform Output
 
 Skill Report
 
-- Strengths
-- Weaknesses
-- Recommended Focus Areas
+* Strengths
+* Weaknesses
+* Recommended Focus Areas
 
 ### Platform Goal
 
@@ -83,13 +85,13 @@ After assessment completion, the learner gains access to the FDE Program.
 
 Displays:
 
-- Current Phase
-- Current Module
-- Progress Percentage
-- Upcoming Tasks
-- Assessments
-- Projects
-- Mentor Feedback
+* Current Phase
+* Current Module
+* Progress Percentage
+* Upcoming Tasks
+* Assessments
+* Projects
+* Mentor Feedback
 
 ### Example
 
@@ -121,9 +123,13 @@ The entire program is divided into structured phases.
 
 Each phase follows a consistent learning cycle.
 
-Learning
+Read
 
-→ Practice
+→ Research
+
+→ NotebookLM Activity
+
+→ Practical Lab
 
 → Assignment
 
@@ -131,59 +137,112 @@ Learning
 
 → Project
 
-→ Review
+→ Mentor Review
 
 → Phase Completion
 
 Learners cannot skip practical components.
 
----
-
-# 5. Lesson Experience
-
-Each module contains multiple lessons.
-
-A lesson is not limited to video content.
-
-### Learning Components
-
-#### Video Lessons
-
-Concept explanation.
-
-#### Written Notes
-
-Detailed documentation.
-
-#### Resource Library
-
-- PDFs
-- Articles
-- Documentation
-- Research Papers
-- Reference Material
-
-#### Interactive Examples
-
-Working implementations.
-
-#### Downloadable Assets
-
-- Source Code
-- Templates
-- Exercises
-
-### User Actions
-
-- Watch lessons
-- Read notes
-- Download resources
-- Bookmark content
-- Create personal notes
+Progression to the next phase is locked until all required activities are completed successfully.
 
 ### Platform Goal
 
-Deliver conceptual understanding before implementation begins.
+Ensure every learner develops practical competency rather than simply consuming content.
+
+---
+
+# 5. Learning Experience
+
+Each module contains multiple lessons.
+
+A lesson is designed as a structured learning document rather than a video-based lecture.
+
+The learning experience is inspired by platforms such as Microsoft Learn, AWS Skill Builder, Google Cloud Learning Paths, and engineering documentation systems.
+
+### Learning Components
+
+#### Learning Objectives
+
+Each lesson begins with clearly defined outcomes.
+
+Examples:
+
+* Understand how embeddings work
+* Learn context engineering fundamentals
+* Build a retrieval system using vector search
+
+#### Structured Learning Content
+
+Concepts are explained using:
+
+* Written explanations
+* Architecture breakdowns
+* Visual diagrams
+* Flow illustrations
+* Engineering best practices
+* Real-world examples
+
+#### Resource Library
+
+Supporting resources include:
+
+* PDFs
+* Articles
+* Documentation
+* Research Papers
+* Internal Knowledge Base Documents
+* SDK References
+
+#### Code Examples
+
+Lessons include practical implementation examples.
+
+Examples:
+
+* API integrations
+* SDK usage examples
+* Agent workflows
+* Retrieval pipelines
+* Production architecture samples
+
+#### Downloadable Assets
+
+* Source Code
+* Templates
+* Reference Implementations
+* Assignment Resources
+* Architecture Diagrams
+
+#### Knowledge Checks
+
+Short quizzes and checkpoints are embedded throughout lessons to reinforce learning.
+
+#### Engineering Takeaways
+
+Every lesson concludes with practical engineering guidance.
+
+Examples:
+
+* Common implementation mistakes
+* Production best practices
+* Performance considerations
+* Real-world deployment insights
+* Industry recommendations
+
+### User Actions
+
+* Read lesson content
+* Explore diagrams and examples
+* Review documentation
+* Access reference materials
+* Complete knowledge checks
+* Bookmark lessons
+* Create personal notes
+* Mark lessons as completed
+
+### Platform Goal
+
+Deliver deep conceptual understanding through documentation-driven learning that mirrors how engineers learn in real-world environments.
 
 ---
 
@@ -197,31 +256,37 @@ The objective is to teach engineers how to learn, research, and synthesize infor
 
 Upload provided resources:
 
-- Documentation
-- Articles
-- Research Papers
-- Internal Notes
+* Documentation
+* Articles
+* Research Papers
+* Internal Notes
 
 Generate:
 
-- Summaries
-- FAQs
-- Study Guides
-- Concept Explanations
-- Revision Notes
+* Summaries
+* FAQs
+* Study Guides
+* Concept Explanations
+* Revision Notes
+* Knowledge Maps
 
 ### Example Activities
 
 AI Foundations
 
-- Upload Transformer Papers
-- Generate Summary
-- Create Revision Notes
+* Upload Transformer Papers
+* Generate Summary
+* Create Revision Notes
 
 RAG Module
 
-- Upload Embedding Documentation
-- Generate Knowledge Map
+* Upload Embedding Documentation
+* Generate Knowledge Map
+
+Agent Systems
+
+* Upload Agent Architecture Guides
+* Generate Workflow Analysis
 
 ### Platform Goal
 
@@ -245,10 +310,10 @@ Build a Semantic Search System
 
 ### User Actions
 
-- Complete guided exercises
-- Implement features
-- Test functionality
-- Submit results
+* Complete guided exercises
+* Implement features
+* Test functionality
+* Submit results
 
 ### Platform Goal
 
@@ -264,84 +329,88 @@ Each major FDE skill includes dedicated training modules.
 
 ## AI SDKs
 
-Topics
+### Topics
 
-- OpenAI SDK
-- Anthropic SDK
-- Gemini SDK
-- Structured Outputs
-- Streaming Responses
+* OpenAI SDK
+* Anthropic SDK
+* Gemini SDK
+* Structured Outputs
+* Streaming Responses
 
-Practical Work
+### Practical Work
 
-- AI Chat Assistant
-- Document Assistant
-- Research Assistant
+* AI Chat Assistant
+* Document Assistant
+* Research Assistant
 
 ---
 
 ## Context Engineering
 
-Topics
+### Topics
 
-- Context Windows
-- Memory Systems
-- Conversation History
-- Context Optimization
+* Context Windows
+* Memory Systems
+* Conversation History
+* Context Optimization
+* Context Compression
 
-Practical Work
+### Practical Work
 
-- Persistent AI Assistant
-- Multi-session Agent
+* Persistent AI Assistant
+* Multi-session Agent
 
 ---
 
 ## Tools & Function Calling
 
-Topics
+### Topics
 
-- Tool Calling
-- API Integrations
-- External Systems
+* Tool Calling
+* API Integrations
+* External Systems
+* Structured Tool Outputs
 
-Practical Work
+### Practical Work
 
-- Weather Agent
-- CRM Agent
-- Internal Knowledge Agent
+* Weather Agent
+* CRM Agent
+* Internal Knowledge Agent
 
 ---
 
 ## Vector Databases & Embeddings
 
-Topics
+### Topics
 
-- Embeddings
-- Chunking
-- Retrieval
-- Similarity Search
+* Embeddings
+* Chunking
+* Retrieval
+* Similarity Search
+* Vector Databases
 
-Practical Work
+### Practical Work
 
-- RAG System
-- Enterprise Search Engine
+* RAG System
+* Enterprise Search Engine
 
 ---
 
 ## Agent Systems
 
-Topics
+### Topics
 
-- Single Agent Architecture
-- Multi-Agent Systems
-- Planning Agents
-- Autonomous Workflows
+* Single Agent Architecture
+* Multi-Agent Systems
+* Planning Agents
+* Autonomous Workflows
+* Agent Orchestration
 
-Practical Work
+### Practical Work
 
-- Research Agent
-- Coding Agent
-- Support Agent
+* Research Agent
+* Coding Agent
+* Support Agent
 
 ---
 
@@ -351,10 +420,11 @@ Each module concludes with an assessment.
 
 ### Assessment Types
 
-- MCQs
-- Scenario Questions
-- Architecture Questions
-- Code Challenges
+* MCQs
+* Scenario Questions
+* Architecture Questions
+* Code Challenges
+* Client Problem Solving Questions
 
 ### Passing Requirement
 
@@ -374,21 +444,22 @@ After completing a skill area, learners build a mini project.
 
 AI SDK Track
 
-- Chat Application
+* Chat Application
 
 RAG Track
 
-- Knowledge Base Assistant
+* Knowledge Base Assistant
 
 Agent Track
 
-- Research Agent
+* Research Agent
 
 ### Deliverables
 
-- Source Code
-- Documentation
-- Demo Video
+* Source Code
+* Documentation
+* Architecture Explanation
+* Project Walkthrough Document
 
 ### Platform Goal
 
@@ -412,20 +483,22 @@ Problem
 
 Unable to search thousands of legal documents efficiently.
 
-Learner Responsibilities
+### Learner Responsibilities
 
-- Gather requirements
-- Design solution
-- Build RAG system
-- Create interface
-- Present solution
+* Gather requirements
+* Understand business goals
+* Design solution architecture
+* Build RAG system
+* Create interface
+* Present solution
 
 ### Evaluation Areas
 
-- Technical Architecture
-- Problem Solving
-- Communication
-- Documentation
+* Technical Architecture
+* Problem Solving
+* Communication
+* Documentation
+* Solution Design
 
 ### Platform Goal
 
@@ -441,18 +514,19 @@ Projects are modeled after actual deployment scenarios.
 
 ### Examples
 
-- AI Research Platform
-- Internal Knowledge Assistant
-- Enterprise Search Engine
-- Customer Support Agent
-- Sales Intelligence Agent
+* AI Research Platform
+* Internal Knowledge Assistant
+* Enterprise Search Engine
+* Customer Support Agent
+* Sales Intelligence Agent
 
 ### Expectations
 
-- Production Quality Code
-- Documentation
-- Deployment Readiness
-- Monitoring Strategy
+* Production Quality Code
+* Documentation
+* Deployment Readiness
+* Monitoring Strategy
+* Scalable Architecture
 
 ### Platform Goal
 
@@ -466,17 +540,18 @@ Project submissions are reviewed by mentors.
 
 ### Review Areas
 
-- Code Quality
-- Architecture
-- Scalability
-- Documentation
-- User Experience
+* Code Quality
+* Architecture
+* Scalability
+* Documentation
+* User Experience
+* Problem Solving Approach
 
 ### User Actions
 
-- Receive feedback
-- Make revisions
-- Resubmit work
+* Receive feedback
+* Make revisions
+* Resubmit work
 
 ### Platform Goal
 
@@ -492,28 +567,22 @@ Learners build a complete end-to-end AI solution.
 
 ### Requirements
 
-Frontend
-
-Backend
-
-AI Layer
-
-RAG
-
-Agents
-
-Deployment
-
-Documentation
-
-Monitoring
+* Frontend
+* Backend
+* AI Layer
+* RAG
+* Agents
+* Deployment
+* Documentation
+* Monitoring
 
 ### Deliverables
 
-- Source Code
-- Live Deployment
-- Architecture Documentation
-- Technical Presentation
+* Source Code
+* Live Deployment
+* Architecture Documentation
+* Technical Presentation
+* Client Presentation Deck
 
 ### Platform Goal
 
@@ -527,12 +596,14 @@ A comprehensive evaluation is conducted.
 
 ### Evaluation Criteria
 
-- Technical Skills
-- AI Knowledge
-- Problem Solving
-- Deployment Readiness
-- Communication Skills
-- Project Quality
+* Technical Skills
+* AI Knowledge
+* Problem Solving
+* Deployment Readiness
+* Communication Skills
+* Project Quality
+* Client Readiness
+* Solution Architecture Skills
 
 ### Result
 
@@ -542,6 +613,10 @@ or
 
 Needs Improvement
 
+### Platform Goal
+
+Validate that the learner is capable of participating in real-world client engagements.
+
 ---
 
 # 16. FDE Certification
@@ -550,14 +625,16 @@ Upon successful completion, learners receive certification.
 
 ### Certification Includes
 
-- Learner Name
-- Program Name
-- Completion Date
-- Certification Level
+* Learner Name
+* Program Name
+* Completion Date
+* Certification Level
 
 ### Outcome
 
 Certified Forward Deployed Engineer
+
+This certification signifies that the learner has successfully completed all learning phases, practical labs, assessments, projects, and client simulation exercises.
 
 ---
 
@@ -567,10 +644,11 @@ Graduates retain access to resources and future updates.
 
 ### Continued Access
 
-- Updated Learning Materials
-- New Projects
-- Advanced Modules
-- Community Discussions
+* Updated Learning Materials
+* New Projects
+* Advanced Modules
+* Community Discussions
+* Future Learning Paths
 
 ### Platform Goal
 
@@ -589,6 +667,8 @@ Employee Invitation
 → Dashboard Access
 
 → AI Foundations
+
+→ Structured Learning Modules
 
 → NotebookLM Activities
 
